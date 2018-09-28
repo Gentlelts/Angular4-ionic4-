@@ -1,0 +1,14 @@
+<!-- Generated template for the CounterInputComponent component -->
+<!--<div>-->
+  <!--{{text}}-->
+<!--</div>-->
+
+<span class="item-name">
+  <img class="jianhao" (click)="decrement()" src="assets/imgs/all/jianhao.png">
+  <ion-input class="window-un-flexible-input" type="number" max="99" maxlength="2"
+         value="0" [(ngModel)]='counterValue' [ngModelOptions]="{standalone: true}"></ion-input>
+  <img class="jianhao" (click)="increment()" src="assets/imgs/all/jiahao.png">
+</span>
+<!--<ion-icon class="add" name="ios-remove-circle-outline"</ion-icon>-->
+<!--<ion-input type="number" value="0" [(ngModel)]='counterValue' [ngModelOptions]="{standalone: true}"></ion-input>-->
+<!--<ion-icon class="min" name="ios-add-circle-outline" (click)='increment()'></ion-icon>-->
